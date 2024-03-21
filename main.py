@@ -8,7 +8,6 @@ import httpx
 
 
 def get_domain_cert(domain,port):
-    """获取证书信息"""
     socket.setdefaulttimeout(5)
     cxt = ssl.create_default_context()
     skt = cxt.wrap_socket(socket.socket(), server_hostname=domain)
