@@ -1,3 +1,7 @@
+# easy ssl monitor
+
+使用方法 Usage
+
 1.在main.py同级目录下新建domains.txt文件，文件内容为需要查询的域名，每行一个。
 
 Create a new domains.txt file in the same level directory as main.py with the contents of the domains to be queried, one per line.
